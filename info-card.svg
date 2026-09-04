@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 480" width="490" height="480">
+  <style>
+    .card-bg { fill: #0d0d0d; stroke: rgba(212, 175, 55, 0.45); stroke-width: 1.5; rx: 12px; filter: drop-shadow(0 0 12px rgba(212, 175, 55, 0.15)); }
+    .top-bar { fill: #161616; rx: 12px; }
+    .dot-red { fill: #FF5F56; }
+    .dot-yellow { fill: #FFBD2E; }
+    .dot-green { fill: #27C93F; }
+    .header-title { font-family: "Fira Code", "Consolas", monospace; font-size: 11px; fill: #888888; font-weight: 600; }
+    .sec-badge { font-family: "Fira Code", monospace; font-size: 9.5px; fill: #FFD700; font-weight: 700; letter-spacing: 1.5px; }
+    .sec-line { stroke: rgba(212, 175, 55, 0.25); stroke-width: 1; stroke-dasharray: 4,4; }
+    .prompt-symbol { font-family: "Fira Code", monospace; font-size: 11px; fill: #00FFCC; font-weight: bold; }
+    .key-label { font-family: "Fira Code", "Consolas", monospace; font-size: 10.5px; fill: #D4AF37; font-weight: 700; }
+    .val-label { font-family: "Fira Code", "Consolas", monospace; font-size: 10.5px; fill: #E2E2E2; font-weight: 400; }
+    .link-val { fill: #4DA6FF; font-weight: 500; }
+    .status-pill { fill: rgba(39, 201, 63, 0.12); stroke: rgba(39, 201, 63, 0.4); rx: 4px; }
+    .status-text { font-family: "Fira Code", monospace; font-size: 9.5px; fill: #27C93F; font-weight: 700; }
+    .tag-pill { fill: rgba(212, 175, 55, 0.12); stroke: rgba(212, 175, 55, 0.35); rx: 3px; }
+    .tag-text { font-family: "Fira Code", monospace; font-size: 9px; fill: #FFD700; font-weight: 600; }
+    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0.2; } }
+    .cursor { fill: #FFD700; animation: blink 1s infinite; }
+  </style>
+  <defs>
+    <clipPath id="card-reveal">
+      <rect x="0" y="0" width="490" height="0">
+        <animate attributeName="height" from="0" to="480" dur="1.8s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1" />
+      </rect>
+    </clipPath>
+  </defs>
+  <rect x="1" y="1" width="488" height="478" class="card-bg" />
+  <path d="M 1 13 C 1 6.36 6.36 1 13 1 L 477 1 C 483.64 1 489 6.36 489 13 L 489 34 L 1 34 Z" class="top-bar" />
+  <circle cx="18" cy="17" r="5" class="dot-red" />
+  <circle cx="34" cy="17" r="5" class="dot-yellow" />
+  <circle cx="50" cy="17" r="5" class="dot-green" />
+  <text x="245" y="21" text-anchor="middle" class="header-title">THE CIPHER STACK // DEV-MITUL v4.2</text>
+  <line x1="1" y1="34" x2="489" y2="34" stroke="rgba(255,255,255,0.08)" stroke-width="1" />
+  <rect x="362" y="44" width="108" height="22" class="status-pill" />
+  <text x="416" y="58" text-anchor="middle" class="status-text">● ONLINE // ACTIVE</text>
+  <g clip-path="url(#card-reveal)">
+    <text x="20" y="62" class="sec-badge">SYS METADATA</text>
+    <line x1="125" y1="58" x2="470" y2="58" class="sec-line" />
+    <text x="22" y="84" class="prompt-symbol">❯</text>
+    <text x="36" y="84" class="key-label">Host:</text>
+    <text x="110" y="84" class="val-label">DEV-MITUL Core Engine v4.2</text>
+    <text x="22" y="106" class="prompt-symbol">❯</text>
+    <text x="36" y="106" class="key-label">OS:</text>
+    <text x="110" y="106" class="val-label">Linux x86_64 (Automation OS)</text>
+    <text x="22" y="128" class="prompt-symbol">❯</text>
+    <text x="36" y="128" class="key-label">Location:</text>
+    <text x="110" y="128" class="val-label">Bangladesh 🇧🇩</text>
+    <text x="20" y="156" class="sec-badge">SPECIALIZATION</text>
+    <line x1="140" y1="152" x2="470" y2="152" class="sec-line" />
+    <text x="22" y="178" class="prompt-symbol">❯</text>
+    <text x="36" y="178" class="key-label">Headline:</text>
+    <text x="110" y="178" class="val-label">Automation Expert • Python Expert</text>
+    <text x="22" y="200" class="prompt-symbol">❯</text>
+    <text x="36" y="200" class="key-label">Role:</text>
+    <text x="110" y="200" class="val-label">Full Stack Engineer • React Architect</text>
+    <text x="20" y="228" class="sec-badge">TECH ARSENAL</text>
+    <line x1="125" y1="224" x2="470" y2="224" class="sec-line" />
+    <text x="22" y="250" class="prompt-symbol">❯</text>
+    <text x="36" y="250" class="key-label">Frontend:</text>
+    <text x="110" y="250" class="val-label">React, TypeScript, Vite, Tailwind, Three.js</text>
+    <text x="22" y="272" class="prompt-symbol">❯</text>
+    <text x="36" y="272" class="key-label">Backend:</text>
+    <text x="110" y="272" class="val-label">Node.js, PHP, Python, MySQL, Supabase, Firebase</text>
+    <text x="22" y="294" class="prompt-symbol">❯</text>
+    <text x="36" y="294" class="key-label">Mobile:</text>
+    <text x="110" y="294" class="val-label">Java, React Native, Flutter</text>
+    <text x="22" y="316" class="prompt-symbol">❯</text>
+    <text x="36" y="316" class="key-label">Tools:</text>
+    <text x="110" y="316" class="val-label">Git, GitHub, VS Code, Postman, Vercel</text>
+    <text x="20" y="344" class="sec-badge">ENDPOINTS</text>
+    <line x1="105" y1="340" x2="470" y2="340" class="sec-line" />
+    <text x="22" y="366" class="prompt-symbol">❯</text>
+    <text x="36" y="366" class="key-label">Portfolio:</text>
+    <text x="110" y="366" class="val-label link-val">https://altalimul.online</text>
+    <text x="22" y="388" class="prompt-symbol">❯</text>
+    <text x="36" y="388" class="key-label">Topup Web:</text>
+    <text x="110" y="388" class="val-label link-val">https://topupchai.shop</text>
+    <text x="22" y="410" class="prompt-symbol">❯</text>
+    <text x="36" y="410" class="key-label">Contact:</text>
+    <text x="110" y="410" class="val-label">mitulislam483@gmail.com | Telegram @mitul_islam</text>
+    <text x="22" y="436" class="prompt-symbol">❯</text>
+    <text x="36" y="436" class="key-label" fill="#00FFCC">DEV_STATUS:</text>
+    <text x="135" y="436" class="val-label" fill="#00FFCC">READY FOR DEPLOYMENT</text>
+    <rect x="305" y="426" width="8" height="12" class="cursor" />
+  </g>
+</svg>
