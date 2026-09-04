@@ -1,7 +1,7 @@
 <div align="center">
 
-<!-- Venom Animated Hero Header -->
-<img src="https://capsule-render.vercel.app/api?type=venom&color=auto&height=220&section=header&text=DEV%20MITUL&fontSize=70&desc=Automation%20Expert%20%E2%80%A2%20Python%20Expert%20%E2%80%A2%20Full%20Stack%20Engineer&descSize=20&stroke=D4AF37&strokeWidth=1" width="100%" alt="DEV MITUL Banner" />
+<!-- Cinematic Dark Gold Animated Hero Header -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0d0d0d&customColorList=0d0d0d,1a1810,d4af37&height=220&section=header&text=DEV%20MITUL&fontSize=48&fontColor=D4AF37&desc=Automation%20Expert%20%E2%80%A2%20Python%20Expert%20%E2%80%A2%20Full%20Stack%20Engineer&descSize=18&descAlignY=72" width="100%" alt="DEV MITUL Banner" />
 
 <br/>
 
@@ -13,7 +13,7 @@
 <br/>
 
 <!-- Typing SVG Banner -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=D4AF37&center=true&vCenter=true&width=860&lines=Building+Ultra-Automated+Systems+%26+AI+Workflows...;Crafting+Scalable+Full-Stack+%26+Mobile+Architectures...;Turning+Complex+Problems+Into+Cinematic+Code...;Python+•+React+•+Node.js+•+Flutter+•+PHP" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&pause=1200&color=D4AF37&center=true&vCenter=true&width=860&lines=Building+Ultra-Automated+Systems+%26+AI+Workflows...;Crafting+Scalable+Full-Stack+%26+Mobile+Architectures...;Turning+Complex+Problems+Into+Cinematic+Code...;Python+•+React+•+Node.js+•+Flutter+•+PHP" alt="Typing SVG" />
 
 </div>
 
